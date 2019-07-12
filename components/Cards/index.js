@@ -31,9 +31,8 @@ const getArticles = async () => {
         topics.forEach(article => {
           //console.log(article);
           const element = makeCard(article);
-          cardsContainer.appendChild(element)
-
-        })
+          cardsContainer.appendChild(element);
+        });
       });
     });
 };

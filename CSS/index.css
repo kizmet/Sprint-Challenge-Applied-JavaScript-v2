@@ -303,3 +303,9 @@ body {
   width: 100%;
   display: none;
 }
+.carousel img .active {
+  display: block;
+}
+#img-1 {
+  display: block;
+}
